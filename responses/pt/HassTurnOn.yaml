@@ -3,7 +3,7 @@ responses:
   intents:
     HassTurnOn:
       default: Turned on {{ slots.name }}
-      lights_area: Turned on lights in {{ slots.area }}
-      fans_area: Turned on fans in {{ slots.area }}
-      cover: Opened {{ slots.name }}
-      cover_area: Opened {{ slots.area }}
+      lights_area: Luzes ligadas em {{ slots.area }}
+      fans_area: Ventoinhas ligadas em {{ slots.area }}
+      cover: {{ slots.name }} aberto
+      cover_area: {{ slots.area }} aberto
